@@ -1,0 +1,30 @@
+Package: stocksTimeSeries
+Title: Time Series Forecasting for Daily Equity Closing Prices
+Version: 0.1.0
+Authors@R: person("Marvis", "Osazuwa", email = "marvis.osazuwa@hotmail.com", role = c("aut", "cre"))
+Description: An end-to-end R analysis package for univariate time series
+    forecasting of daily equity closing prices. Implements data loading and
+    validation, exploratory analysis, log and difference transformations,
+    stationarity testing (ADF, KPSS), candidate model fitting (ARIMA, ETS,
+    naive baseline), residual diagnostics, and accuracy evaluation, all
+    exposed through a reproducible pipeline and standalone driver scripts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    lubridate,
+    forecast,
+    tseries,
+    ggplot2,
+    gridExtra,
+    lmtest,
+    readr,
+    tibble
+Suggests:
+    testthat (>= 3.0.0),
+    lintr,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3

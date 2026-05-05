@@ -1,0 +1,14 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^\.lintr$
+^Makefile$
+^analysis$
+^data-raw$
+^output$
+^models$
+^figures$
+^CORRECTIONS\.md$
+^AUDIT\.md$
+^LICENSE\.md$
+^\.gitignore$

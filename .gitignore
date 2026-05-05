@@ -1,0 +1,28 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Renviron
+
+# Build artifacts
+*.tar.gz
+*.Rcheck/
+
+# Output and models (created at runtime)
+output/
+figures/
+models/
+
+# Local logs (do not ship)
+AUDIT.md
+CORRECTIONS.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
